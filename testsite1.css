@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+
+body {
+    background-color: #010409;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#container {
+    width: 700px;
+    /*background-color: rgb(238, 23, 23);*/
+    margin: 30px auto;
+}
+
+.title {
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+#dim {
+    color: #808080;
+}
+
+.section {
+    color: white;
+    font-family: 'Noto Sans KR', sans-serif;
+    margin: 10px 0 30px;
+}
+
+.section h2 {
+    font-size: xx-large;
+    margin: 0 0 10px;
+}
+
+#inline-img {
+    border-radius: 20px;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 0;
+}
